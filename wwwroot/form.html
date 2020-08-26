@@ -2,31 +2,60 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content=" 快来一起注册吧！"/>
+    <meta name="description" content=" 快来一起注册吧！" />
     <title>注册.一起帮</title>
-    <link rel="shortcut icon" type="image/ico" href="/Images/logo.ico" media="screen" />
+    <link rel="shortcut icon" type="image/ico" href="/js/logo.ico" media="screen" />
 </head>
 <body>
-     <h1>注册</h1>
-     <form method="post" action=" ">
-         <label>邀请人</label> <input type="text" name=" username" value="" /> <h5 style=" color :red">(必填）</h5>
-         <a href="http://17bang.ren/User/Inviters" title=" 点击由系统推荐" target="_blank">没有邀请人?</a> <br />
+    <header>
+        <nav>
+            <span><img src="js/logo.ico" alt="一起帮.网络互助平台" /></span>
+            <span>一起帮.网络互助平台</span>
+            <a href="#" style="text-align :right  ">求助</a>
+            <a href="#" style="text-align :right  ">督促</a>
+            <a href="#" style="text-align :right  ">文章</a>
+            <a href="#" style="text-align :right  ">未登录</a>
+        </nav>
+    </header>
+    <main>
+        <h1>注册</h1>
+        <form method="post" action="/">
+            <label>邀请人:(必填）</label> <input type="text" name=" username" />
+            <a href="/User/Inviters" title=" 点击由系统推荐" target="_blank">没有邀请人?</a> <br />
 
-         <label>邀请码</label> <input type="text" name="number" value="" /><h5 style=" color :red">(必填）</h5>    <br />
+            <label>邀请码:(必填）</label> <input type="text" name="number" />    <br />
 
-         <label>用户名</label> <input type="text" name=" username" value="" />  <h5 style=" color :red ">(必填）</h5> <br />
+            <label>用户名:(必填）</label> <input type="text" name=" username" />  <br />
 
-         <label>密码</label> <input type="password" name=" password" value="" />   <h5 style=" color :red ">（必填）</h5>    <br />
+            <label>密码:(必填）</label> <input type="password" name=" password" />    <br />
 
-         <label>验证密码</label> <input type="password" name=" password" value="" />   <h5 style=" color :red ">（必填）</h5>    <br />
+            <label>验证密码:(必填）</label> <input type="password" name=" password" />   <br />
 
-         <label>验证码</label> <input type="text" name="number" value="" />   <h5 style=" color :red ">（必填）</h5>
-         <div>点击输入框显示</div>
-         <br />
-         <input type="submit"  value=" 提交" />
-         <input type="reset" value=" 重置" />
-     </form>
-     <a href=" http://17bang.ren/Log/On?prepage=%2fRegister%2f" target="_blank" >登录</a>
+            <label>验证码:(必填）</label> <input type="text" name="number" /> <div>点击输入框显示</div>       <br />
+            <input type="submit" value=" 提交" />
+            <input type="reset" value=" 重置" />
+            <a href="/Log/On?prepage=%2fRegister%2f" target="_blank">登录</a>
+        </form>
+    </main>
+    <aside>
 
+        <p style="text-align :justify"><h1>说明</h1></p>
+
+        <p style="text-indent :300px ">我们希望通过一起帮，能直接解决大家在电脑操作/软件使用/编程学习等方面的具体问题。</p>
+        <P style="text-indent :300px ">现在互联网远程技术（比如QQ桌面共享）已经非常成熟，当我们再遇到上述问题，如果别人能直接远程给予帮助，岂不是好？</P>
+        <P style="text-indent :300px ">当然，你也可以在你熟悉的领域去帮助别人。由此而形成我们这个“你帮他他帮我我帮你，大家一起帮”的网上互助社区平台。</P>
+        <P style="text-indent :300px ">公平起见，我们还引入了 帮帮点/币/豆 三级概念，以记录和衡量社区成员的收获和贡献。</P>
+        <P style="text-indent :300px ">赶快加入我们，赚取帮帮币吧！</P>
+        <p style="text-align :right ">了解更多</p>
+    </aside>
+    <footer>
+        <a href="/About/Us" target="_blank">关于我们</a>
+        <a href="/FAQ" target="_blank">常见问题</a>
+        <a href="/Suggest" target="_blank">意见建议</a>
+        <a href="/Notice" target="_blank">历史通知</a>
+        <a href="/Donate" target="_blank">友情捐赠</a>
+        <a href="/About/Partner" target="_blank">诚邀合伙人</a>
+        <p>友情链接:</p>
+    </footer>
 </body>
 </html>
